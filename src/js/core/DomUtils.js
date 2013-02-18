@@ -34,12 +34,7 @@ define(['dom'], function($){
 		},
 
 		isAcceptedType : function(type){
-			if (type instanceof HTMLElement ||
-				type instanceof SVGElement) {
-				return true;
-			} else {
-				return false;
-			}
+			return (type instanceof HTMLElement || type instanceof SVGElement);
 		},
 
 		setAttribute : function(node, property, value){

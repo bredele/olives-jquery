@@ -282,7 +282,7 @@ function ModelPlugin(Store, Observable, Tools, DomUtils) {
 					var newNode = _node.cloneNode(true),
 					nodes = DomUtils.getNodes(newNode);
 
-					Tools.toArray(nodes).forEach(function (child) {
+					nodes.forEach(function (child) {
 	            		child.setAttribute("data-" + _plugins.name+"_id", id);
 					});
 
