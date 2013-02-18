@@ -1,3 +1,5 @@
+Olives-jquery implements aliases for Olives.js and DOM manipulation that pipe back to a library of choice (jquery, zepto).
+
 Extensive documentation, along with unit tests and JsDoc can be found here: http://flams.github.com/olives/
 
 ###What is Olives?
