@@ -1,15 +1,10 @@
  module.exports = function (grunt) {
 
-  grunt.loadNpmTasks('grunt-compass');
 
-  /* do clean, meta, jshint, lint, csslint, etc */
   grunt.initConfig({
     server : {
       port: 8888,
       base: './'
-    },
-    compass: {
-      dist: {}
     },
     lint : {
       files : ['src/js/core/*.js'],
