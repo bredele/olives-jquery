@@ -33,3 +33,4 @@ require.config({
  * Create a version with zepto included
  * Copy files into build?
  * Generate doc
+ * create release zip
