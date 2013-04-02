@@ -1,4 +1,8 @@
-Olives-jquery implements aliases for Olives.js and DOM manipulation that pipe back to a library of choice (jquery, zepto).
+Olives-jquery
+=============
+
+> Olives-jquery implements aliases for Olives.js and DOM manipulation that pipe back to a library of choice (jquery, zepto).
+
 
 To switch of dom library, go into the ```src/js``` directory and modify the ```config.js``` file as following:
 ```js	
