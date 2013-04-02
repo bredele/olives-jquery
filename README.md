@@ -26,3 +26,10 @@ require.config({
 	}
 });
 ```
+## Todo
+
+ * Evolved grunt file (dynamic files)
+ * Create a version with jquery included
+ * Create a version with zepto included
+ * Copy files into build?
+ * Generate doc
